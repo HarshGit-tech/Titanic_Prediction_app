@@ -3,6 +3,8 @@
 This project is an end-to-end machine learning application built to predict survival on the Titanic using a Random Forest Classifier. The model is trained and evaluated using the Titanic dataset from Kaggle and deployed as an interactive Streamlit web application.
 
 ---
+## Live app
+[Click here to launch the app](https://titanicpredictionapp-tebbzapph5futzidcjz257c.streamlit.app/)
 
 ## Project Structure
 titanic-survival-prediction/
