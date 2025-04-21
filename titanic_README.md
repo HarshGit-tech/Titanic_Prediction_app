@@ -1,6 +1,6 @@
 # Titanic Survival Prediction - Streamlit App
 
-This project is an end-to-end machine learning application built to predict survival on the Titanic using a Random Forest Classifier. The model is trained and evaluated using the Titanic dataset from Kaggle and deployed as an interactive Streamlit web application.
+This project is an end-to-end machine learning application built to predict survival on the Titanic using a Random Forest Classifier. The model is trained and evaluated using the Titanic dataset from Kaggle and deployed as an interactive Streamlit web application. 
 
 ---
 ## Live app
@@ -8,15 +8,15 @@ This project is an end-to-end machine learning application built to predict surv
 
 ## Project Structure
 titanic-survival-prediction/
-├── app.py                          # Streamlit web app script
-├── End-to-End Titanic Survival Prediction project.ipynb  # Jupyter notebook for EDA, training, and model saving
-├── train.csv                       # Dataset used for training and evaluation
-├── random_forest_model.pkl         # Saved RandomForest model using pickle
-├── scaler.pkl                      # Saved StandardScaler used for input normalization
-├── requirements.txt                # List of required Python packages
-|── README.md                       # Project documentation
-|__test.csv                         # Dataset used for test and evaluation
-
+app.py                          # Streamlit web app script
+End-to-End Titanic Survival Prediction project.ipynb  # Jupyter notebook for EDA, training, and model saving
+train.csv                       # Dataset used for training and evaluation
+random_forest_model.pkl         # Saved RandomForest model using pickle
+scaler.pkl                      # Saved StandardScaler used for input normalization
+requirements.txt                # List of required Python packages
+README.md                       # Project documentation
+test.csv                         # Dataset used for test and evaluation
+submission.csv                  # Survival prediction
 
 ---
 
@@ -28,27 +28,7 @@ titanic-survival-prediction/
 - Evaluation metrics: Accuracy, Precision, Recall, F1 Score
 - Confusion matrix heatmap
 - Interactive user input form to predict survival
-
----
-
-## Installation & Setup
-
-```bash
-# Clone the repository
-https://github.com/your-username/titanic-streamlit-app.git
-cd titanic-streamlit-app
-
-# (Optional) Create virtual environment
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the app
-streamlit run app.py
-```
-
+- Submit survival prediction to Kaggle's Titanic competition.
 ---
 
 ## Model Overview
